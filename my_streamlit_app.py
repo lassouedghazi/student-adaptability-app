@@ -7,7 +7,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # Load and preprocess data
-df = pd.read_csv("/content/students_adaptability_level_online_education.csv")
+df = pd.read_csv("students_adaptability_level_online_education.csv")
 df.dropna(inplace=True)
 
 # Define target and features
