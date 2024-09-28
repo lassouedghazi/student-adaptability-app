@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 import pickle
 import streamlit as st
-import matplotlib.pyplot as plt
+
 
 # Load and preprocess data
 df = pd.read_csv("students_adaptability_level_online_education.csv")
